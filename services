@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Dimond Standard Media</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="site-wrapper">
+    <header>
+        <a href="index.html">
+            <img src="dsMedia logo with LLc.png" alt="Dimond Standard Media Logo" class="logo-img">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="container">
+        <h2 class="text-center mb-2" style="font-size: 2.5rem;">Our Approach</h2>
+        
+        <div class="feature-box mt-2">
+            <h3>B2B Service Model</h3>
+            <p class="mt-2">Dimond Standard Media works through a service-based, B2B model. We offer varied pricing dependent upon the specific services your business requires to scale efficiently.</p>
+        </div>
+
+        <div class="feature-box mt-2" style="background-color: var(--light-gray); border-top-color: var(--dark-gray);">
+            <h3>Our Qualifications</h3>
+            <p class="mt-2">We back our data-driven strategies with official state credentials, including:</p>
+            <ul style="margin-top: 15px; margin-left: 20px;">
+                <li>YouScience Brightpath Marketing State Certification</li>
+                <li>YouScience Brightpath Business Management State Certification</li>
+                <li>YouScience Brightpath Web Development State Certification</li>
+                <li>YouScience Brightpath Commercial Art State Certification</li>
+            </ul>
+        </div>
+        
+        <div class="text-center mt-2">
+            <a href="contact.html" class="btn">Request a Proposal</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Dimond Standard Media LLC. All rights reserved.</p>
+        <div class="mt-2">
+            <a href="https://www.instagram.com/d.smedia_/" target="_blank">Instagram</a>
+            <a href="mailto:levi@dsmedia.app">Email Us</a>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>
