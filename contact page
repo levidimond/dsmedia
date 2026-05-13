@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Dimond Standard Media</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="site-wrapper">
+    <header>
+        <a href="index.html">
+            <img src="dsMedia logo with LLc.png" alt="Dimond Standard Media Logo" class="logo-img">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="container text-center">
+        <h2 style="font-size: 2.5rem; margin-bottom: 20px;">Let's Work Together</h2>
+        <p style="max-width: 600px; margin: 0 auto 40px auto;">Ready to offload your marketing stress and grow your sales? Reach out to us today to get started.</p>
+        
+        <div class="feature-box" style="max-width: 500px; margin: 0 auto; text-align: center;">
+            <h3 style="margin-bottom: 20px;">Contact Information</h3>
+            <p><strong>Email:</strong> <a href="mailto:levi@dsmedia.app" style="color: var(--forest-green);">levi@dsmedia.app</a></p>
+            <p class="mt-2"><strong>Website:</strong> dsmedia.app</p>
+            <div class="mt-2" style="padding-top: 20px; border-top: 1px solid var(--light-gray);">
+                <a href="https://www.instagram.com/d.smedia_/" target="_blank" class="btn">Follow Us on Instagram</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Dimond Standard Media LLC. All rights reserved.</p>
+        <div class="mt-2">
+            <a href="https://www.instagram.com/d.smedia_/" target="_blank">Instagram</a>
+            <a href="mailto:levi@dsmedia.app">Email Us</a>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>
