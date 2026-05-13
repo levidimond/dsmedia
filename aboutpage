@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Dimond Standard Media</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="site-wrapper">
+    <header>
+        <a href="index.html">
+            <img src="dsMedia logo with LLc.png" alt="Dimond Standard Media Logo" class="logo-img">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="container">
+        <h2 class="text-center mb-2" style="font-size: 2.5rem;">Who We Are</h2>
+        <p class="text-center mb-2" style="max-width: 700px; margin: 0 auto 50px auto;">Built by a small business owner who knows exactly what it takes. We are focused purely on your wants and expectations.</p>
+        
+        <div class="split">
+            <div class="feature-box">
+                <h3 style="color: var(--forest-green); margin-bottom: 15px;">The Problem</h3>
+                <p>Business owners are stretched for time already. Good and effective marketing takes more time and consistency than owners can realistically give. In fact, 22% of failed businesses attribute incorrect marketing to their failure.</p>
+            </div>
+            <div class="feature-box">
+                <h3 style="color: var(--sage-green); margin-bottom: 15px;">Our Solution</h3>
+                <p>We provide a clear, data-driven strategy with a transparent, micromanagement-free process. We take the heavy lifting off your shoulders so you can focus on running your business.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Dimond Standard Media LLC. All rights reserved.</p>
+        <div class="mt-2">
+            <a href="https://www.instagram.com/d.smedia_/" target="_blank">Instagram</a>
+            <a href="mailto:levi@dsmedia.app">Email Us</a>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>
