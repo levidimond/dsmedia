@@ -75,9 +75,12 @@ nav a:hover {
 
 /* General Layout */
 .container {
-    padding: 80px 50px;
-    max-width: 1000px;
-    margin: 0 auto;
+    max-width: 1100px; /* This brings the edges in so the leaves show on the sides */
+    margin: 40px auto; /* This adds space at the top and bottom and centers it */
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.95); /* 95% solid white, 5% see-through for a cool effect */
+    border-radius: 12px; /* Smooth, rounded corners */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Adds a shadow so it looks like it's floating over the leaves */
 }
 
 .text-center { text-align: center; }
