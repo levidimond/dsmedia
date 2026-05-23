@@ -18,13 +18,15 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
     color: var(--dark-gray);
-    /* This creates the dark outer background like your inspiration image */
-    background-color: var(--forest-green); 
-    /* To use an actual leaf image later, you would add: background-image: url('leaves.jpg'); background-size: cover; */
-    padding: 40px 20px;
-    line-height: 1.6;
+    /* This is the new background code! */
+    background-image: url('leaves.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
 }
 
 /* The Main Website "Paper" */
