@@ -26,12 +26,25 @@
         <h2 style="font-size: 2.5rem; margin-bottom: 20px;">Let's Work Together</h2>
         <p style="max-width: 600px; margin: 0 auto 40px auto;">Ready to offload your marketing stress and grow your sales? Reach out to us today to get started.</p>
         
-        <div class="feature-box" style="max-width: 500px; margin: 0 auto; text-align: center;">
-            <h3 style="margin-bottom: 20px;">Contact Information</h3>
-            <p><strong>Email:</strong> <a href="mailto:levi@dsmedia.app" style="color: var(--forest-green);">levi@dsmedia.app</a></p>
-            <p class="mt-2"><strong>Website:</strong> dsmedia.app</p>
-            <div class="mt-2" style="padding-top: 20px; border-top: 1px solid var(--light-gray);">
-                <a href="https://www.instagram.com/d.smedia_/" target="_blank" class="btn">Follow Us on Instagram</a>
+        <div class="feature-box" style="max-width: 600px; margin: 0 auto; text-align: left;">
+            <h3 style="margin-bottom: 20px; text-align: center;">Send Us a Message</h3>
+            
+            <form action="https://formspree.io/f/xojbwoed" method="POST" style="display: flex; flex-direction: column; gap: 15px;">
+                
+                <label style="font-family: 'Playfair Display', serif;">Your Name:</label>
+                <input type="text" name="name" required style="padding: 10px; border: 1px solid var(--light-gray); border-radius: 4px;">
+                
+                <label style="font-family: 'Playfair Display', serif;">Your Email:</label>
+                <input type="email" name="email" required style="padding: 10px; border: 1px solid var(--light-gray); border-radius: 4px;">
+                
+                <label style="font-family: 'Playfair Display', serif;">Message:</label>
+                <textarea name="message" rows="5" required style="padding: 10px; border: 1px solid var(--light-gray); border-radius: 4px; resize: vertical;"></textarea>
+                
+                <button type="submit" class="btn" style="margin-top: 10px;">Send Message</button>
+            </form>
+            
+            <div class="mt-2 text-center" style="padding-top: 20px; border-top: 1px solid var(--light-gray);">
+                <p>Or email us directly: <a href="mailto:levi@dsmedia.app" style="color: var(--forest-green);">levi@dsmedia.app</a></p>
             </div>
         </div>
     </section>
