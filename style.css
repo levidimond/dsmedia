@@ -23,7 +23,7 @@ body {
     padding: 0;
     color: var(--dark-gray);
     /* This is the new background code! */
-    background-image: url('leaves.jpg');
+    background-image: url('https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?q=80&w=2074&auto=format&fit=crop');
     background-size: cover;
     background-position: center;
     background-attachment: fixed; 
