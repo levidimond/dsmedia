@@ -188,3 +188,39 @@ footer a {
     .split { flex-direction: column; }
     body { padding: 0; }
 }
+/* --- ZEN GALLERY STYLES --- */
+
+/* The Glass Frame for the Gallery */
+.zen-container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.85); /* Slightly more transparent than the main glass */
+    border-radius: 16px; /* Soft, rounded corners */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Soft, floating shadow */
+}
+
+/* The Grid Layout */
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap; /* Allows photos to stack on mobile */
+    gap: 25px; /* Creates "breathing room" between photos */
+    justify-content: center;
+}
+
+/* The Individual Photos */
+.zen-photo {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; /* Crops photos into perfect squares without stretching them */
+    border-radius: 50%; /* This turns them into perfect circles! (Change to 12px if you prefer soft squares) */
+    border: 6px solid rgba(255, 255, 255, 0.6); /* A frosted glass border around the photo */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    transition: transform 0.4s ease, box-shadow 0.4s ease; /* Makes the hover effect perfectly smooth */
+}
+
+/* The Hover Effect (Like a stone floating up slightly when you mouse over it) */
+.zen-photo:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
